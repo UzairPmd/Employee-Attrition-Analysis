@@ -96,10 +96,11 @@ Interactive Tableau Dashboard
 
 
 ```markdown
+## 📊 Dashboard Preview
+
 ![Employee Attrition Dashboard](dashboard_images/08_Final_Dashboard.png)
 ```
 
----
 
 # 📸 Dashboard Visualizations
 
