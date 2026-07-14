@@ -95,3 +95,5 @@ The notebooks follow a structured analytics pipeline:
 ## 🎯 Objective
 
 The primary objective of these notebooks is to demonstrate a complete end-to-end data analytics workflow, transforming raw HR data into meaningful insights and predictive models that support data-driven decision-making.
+
+Each notebook is independent, well-documented, and follows a logical progression to ensure clarity, reproducibility, and ease of understanding.
