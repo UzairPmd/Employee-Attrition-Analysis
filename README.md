@@ -1,12 +1,12 @@
 # 📊 Employee Attrition Analysis
 
-An end-to-end Data Analytics project that analyzes employee attrition using **Python, SQL, and Tableau**. The project follows the complete analytics workflow—from data understanding and cleaning to exploratory analysis, business insights, predictive modeling, SQL analysis, and interactive dashboard development.
+An end-to-end **Data Analytics** project that analyzes employee attrition using **Python, SQL, Machine Learning, and Tableau**. This project follows the complete analytics lifecycle—from data understanding and cleaning to exploratory analysis, predictive modeling, SQL business analysis, and interactive dashboard development.
 
 ---
 
 ## 📌 Project Overview
 
-Employee attrition is a critical challenge for organizations as it impacts productivity, recruitment costs, and overall business performance. This project analyzes HR employee data to identify factors contributing to employee turnover and provides actionable insights through data visualization and analytics.
+Employee attrition is one of the biggest challenges faced by organizations, affecting productivity, recruitment costs, and employee satisfaction. This project analyzes an HR employee dataset to uncover the factors influencing employee turnover and provides actionable business insights through data analysis and visualization.
 
 The project demonstrates an end-to-end analytics workflow using industry-standard tools and techniques.
 
@@ -14,12 +14,14 @@ The project demonstrates an end-to-end analytics workflow using industry-standar
 
 ## 🎯 Objectives
 
-- Analyze employee attrition patterns.
-- Identify factors contributing to employee turnover.
-- Perform data cleaning and exploratory data analysis.
-- Answer business questions using SQL.
-- Build a Logistic Regression model to predict employee attrition.
-- Develop an interactive Tableau dashboard for HR analytics.
+- Understand the employee attrition dataset and create a comprehensive data dictionary.
+- Perform data cleaning and handle data quality issues.
+- Explore employee demographics and workforce characteristics through descriptive analysis.
+- Conduct exploratory data analysis (EDA) to identify trends and patterns.
+- Calculate key HR metrics (KPIs) such as total employees, attrition rate, active employees, employees left, and average employee age.
+- Analyze employee attrition across different employee segments.
+- Identify relationships between attrition and salary, overtime, job satisfaction, work-life balance, and business travel.
+- Build an interactive Tableau dashboard to communicate insights effectively.
 
 ---
 
@@ -52,21 +54,17 @@ Employee-Attrition-Analysis/
 │   └── 04_Logistic_Regression.ipynb
 │
 ├── sql/
-│
 ├── tableau/
-│
 ├── dashboard_images/
-│
 ├── reports/
-│
 └── README.md
 ```
 
 ---
 
-## 📊 Project Workflow
+## 🔄 Project Workflow
 
-```
+```text
 Raw Dataset
       │
       ▼
@@ -92,27 +90,7 @@ Interactive Tableau Dashboard
 
 # 📈 Dashboard Preview
 
-> <img width="1318" height="742" alt="08_Final_Dashboard png" src="https://github.com/user-attachments/assets/592c45fb-bcdc-4297-8db5-447c915fc0e2" />
-
-
-```markdown
-## 📊 Dashboard Preview
-
-Employee Attrition Dashboard
-```
-
-
-# 📸 Dashboard Visualizations
-
-| Visualization | Description |
-|--------------|-------------|
-| KPI Summary | Displays Total Employees, Employees Left, Active Employees, Attrition Rate, and Average Age. |
-| Department-wise Attrition | Compares employee attrition across departments. |
-| Employee Age Distribution | Shows the distribution of employees by age groups. |
-| Job Satisfaction Heatmap | Compares job satisfaction ratings across job roles. |
-| Attrition by Overtime | Highlights the impact of overtime on employee attrition. |
-| Attrition by Education Field | Displays employee attrition across different education fields. |
-| Attrition by Business Travel | Analyzes the relationship between business travel and attrition. |
+<img width="1318" height="742" alt="Employee Attrition Dashboard" src="https://github.com/user-attachments/assets/592c45fb-bcdc-4297-8db5-447c915fc0e2"/>
 
 ---
 
@@ -120,10 +98,11 @@ Employee Attrition Dashboard
 
 A **Logistic Regression** model was developed using Scikit-learn to predict employee attrition.
 
-The workflow included:
+### Workflow
 
-- Feature selection
-- Label encoding
+- Data Preprocessing
+- Feature Selection
+- Label Encoding
 - Train-Test Split
 - Model Training
 - Model Evaluation
@@ -133,47 +112,57 @@ The workflow included:
 
 ## 🗄️ SQL Analysis
 
-Business-focused SQL queries were written to answer practical HR questions, including:
+Business-oriented SQL queries were written to answer HR-related analytical questions, including:
 
-- Employee distribution
-- Department analysis
-- Attrition analysis
-- Salary analysis
-- Overtime analysis
-- Business travel analysis
-- Education field analysis
+- Employee Distribution
+- Department Analysis
+- Attrition Analysis
+- Salary Analysis
+- Overtime Analysis
+- Business Travel Analysis
+- Education Field Analysis
+- Job Satisfaction Analysis
 
 ---
 
 ## 💡 Key Insights
 
 - Overall employee attrition rate is approximately **16.12%**.
-- Research & Development records the highest employee attrition.
-- Employees working overtime have significantly higher attrition.
-- Most employees fall between the late twenties and late thirties.
-- Business travel and education field influence employee turnover patterns.
+- Research & Development experiences the highest employee attrition.
+- Employees working overtime show significantly higher attrition.
+- The majority of employees belong to the **30–40 years** age group.
+- Business travel frequency and education field influence employee turnover.
 
 ---
 
-## 📈 Tableau Dashboard
+## 🌐 Tableau Public Dashboard
 
-The interactive Tableau dashboard enables users to explore employee attrition using KPIs, filters, parameters, and dynamic visualizations.
+Explore the interactive dashboard on Tableau Public.
+
+### 🔗 Live Dashboard
+
+https://public.tableau.com/views/Employee_Attrition_Analysis_17839618241630/EmployeeAttritionDashboard
+
+### 👤 Tableau Public Profile
+
+https://public.tableau.com/app/profile/uzair.mohammad/vizzes
 
 ### Dashboard Features
 
-- KPI Summary
-- Department-wise Attrition
-- Employee Age Distribution
-- Job Satisfaction Heatmap
-- Attrition by Overtime
-- Education Field Analysis
-- Business Travel Analysis
+- 📊 KPI Summary
+- 🥧 Department-wise Attrition
+- 📈 Employee Age Distribution
+- 🔥 Job Satisfaction Heatmap
+- 🎓 Education Field-wise Attrition
+- ✈️ Business Travel vs Attrition
+- 👥 Gender-wise Attrition Across Age Groups
+- 🎛️ Interactive Filters
 
 ---
 
 ## 📄 Project Report
 
-A detailed project report containing the complete analysis, visualizations, insights, and recommendations is available in the **reports** folder.
+A detailed report covering data cleaning, exploratory data analysis, dashboard development, key findings, and business recommendations is available in the **reports** folder.
 
 ---
 
@@ -181,8 +170,9 @@ A detailed project report containing the complete analysis, visualizations, insi
 
 - Compare multiple machine learning algorithms.
 - Deploy the predictive model as a web application.
+- Integrate real-time HR data for continuous monitoring.
 - Build a Power BI version of the dashboard.
-- Automate the analytics workflow.
+- Enhance dashboard interactivity with advanced parameters and drill-down analysis.
 
 ---
 
@@ -194,6 +184,11 @@ B.Tech Computer Science Engineering
 
 Aspiring Data Analyst
 
+**GitHub:** https://github.com/UzairPmd
+
+**Tableau Public:** https://public.tableau.com/app/profile/uzair.mohammad/vizzes
+
 ---
 
-## ⭐ If you found this project helpful, consider giving it a star!
+
+If you found this project useful, consider giving this repository a **⭐ Star**. Your support motivates me to continue building and sharing data analytics projects.
