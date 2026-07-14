@@ -96,7 +96,7 @@ Interactive Tableau Dashboard
 
 
 ```markdown
-![Employee Attrition Dashboard]
+![Employee Attrition Dashboard](dashboard_images/08_Final_Dashboard.png)
 ```
 
 ---
